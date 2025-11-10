@@ -9,7 +9,7 @@ LAB SETUP INSTRUCTIONS
 
 1. Navigate to the project directory:
    Open your terminal and run:
-      cd 5-7-node-express
+      'cd 5-7-node-express'
 
 2. Install project dependencies:
    Run either of these commands:
@@ -91,7 +91,7 @@ Hints:
 ===============================================================
 TODO 5: Define Routes (in server.js)
 ===============================================================
-
+ß
 Goal: How to create routes and handle requests/responses.
 
 TODO 5.1: Create a Test Route
@@ -129,7 +129,6 @@ Example:
 { "quote": "Talk is cheap. Show me the code." }
 
 */
-
 
 import { useState } from "react";
 import "./index.css";

@@ -1,16 +1,12 @@
-import { getRandomInt } from "./utils/random.js";
+import { getRandomInt } from "./backend/utils/random.js";
 
 const quotes = [
-  "Code is like humor. When you have to explain it, it’s bad.",
-  "Before software can be reusable it first has to be usable.",
-  "Make it work, make it right, make it fast.",
-  "Programming isn’t about what you know; it’s about what you can figure out."
+  "Talk is cheap. Show me the code.",
+  "Simplicity is the soul of efficiency.",
+  "Programs must be written for people to read, and only incidentally for machines to execute."
 ];
 
 export function getRandomQuote() {
   const index = getRandomInt(quotes.length);
- return 
-   quotes[index];
-
- 
+  return quotes[index];
 }
